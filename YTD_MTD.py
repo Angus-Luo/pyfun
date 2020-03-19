@@ -1,9 +1,10 @@
 # %%
 import pandas as pd
 import datetime
+import numpy
 # %%
 df = pd.read_csv(r'\\tpfile01\8200_Accounting\PowerBI\Mapping_General\calendar.csv')
-
+df.head()
 # %%
 today = datetime.datetime.today()
 # %%
