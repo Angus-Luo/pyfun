@@ -8,6 +8,7 @@ df = pd.read_excel('\\\\tpfile01\\8200_Accounting\\PowerBI\\Mapping_General\\Exc
 
 # %%
 def add_currency(dataframe,new_cur: str):
+    #added two currency
     temp_df = dataframe[dataframe['Currency'] == new_cur]
     temp_df.drop('Currency', axis=1)
     temp_df.rename(columns={'ExchangeToTWD':f'{new_cur}toTWD'}, inplace=True)
