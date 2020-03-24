@@ -2,7 +2,7 @@
 # To add a new markdown cell, type '# %% [markdown]'
 # %%
 import pandas as pd
-
+import numpy as np
 # %%
 df = pd.read_excel('\\\\tpfile01\\8200_Accounting\\PowerBI\\Mapping_General\\Exchange.xlsx', encoding='utf-8', header=0)
 # %%
