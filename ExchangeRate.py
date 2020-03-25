@@ -3,7 +3,6 @@
 # %%
 import pandas as pd
 import numpy as np
-import openpyxl
 # %%
 df = pd.read_excel('\\\\tpfile01\\8200_Accounting\\PowerBI\\Mapping_General\\Exchange.xlsx', encoding='utf-8', header=0)
 # %%
